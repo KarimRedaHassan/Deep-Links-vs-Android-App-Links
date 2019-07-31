@@ -60,8 +60,20 @@ This means when he press the Up button in the ActionBar/ToolBar, he will go to t
 
 5. Users could directly open specific content in your app by clicking a URL from Google in a mobile browser, in the Google Search app, in screen search on Android, or even through Google Assistant.
 
-6.You Also Could Benefit from Android Instant App Support allowing users to run your Android app without installing it. (This required more work, But Android App Links works perfectly with this feature).
+6. You Also Could Benefit from Android Instant App Support allowing users to run your Android app without installing it. (This required more work, But Android App Links works perfectly with this feature).
 
+# Here is the Major Differences Between Deep Links and Android App Links
+| Component | Deep links | App links|
+| --- | --- | --- |
+| Intent URL scheme |	http, https, or a custom scheme | Requires http or https |
+| Intent action |	Any action |	Requires android.intent.action.VIEW |
+| Intent category |	Any category	| Requires android.intent.category.BROWSABLE and android.intent.category.DEFAULT |
+| Link verification |	None | Requires a Digital Asset Links file served on you website with HTTPS |
+|User experience|	May show a disambiguation dialog for the user to select which app to open the link |	No dialog; your app opens to handle your website links |
+| Compatibility |	All Android versions	| Android 6.0 and higher |
+
+This Table is taken from Android Documentation
+- https://developer.android.com/training/app-links/verify-site-associations.html#the-difference
 
 # What's Next ?
 
