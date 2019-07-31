@@ -45,9 +45,9 @@ This means you could open your app from places rather than the launch icon
 4. Increase the user's engagement with your app as you could allow him to browse the app as if he opens it from the launcher icon.
 This means when he press the Up button in the ActionBar/ToolBar, he will go to the normal previous screen as if he opened the app from the normal entry point (launcher icon). You could also prevent this action by allowing the Up button to leave your app and return to the previous app which redirected the user to your app.
 
-5. Facilitate Navigation through the Android Jetpack Navigation Component by giving each destination a calling URL.
+5. Facilitate Navigation within your app through the Android Jetpack Navigation Component by giving each destination a calling URL.
 
-5. Allow jumping between different Navigation Graphs easily.
+5. Allow jumping between different Navigation Graphs easily within your app.
 
 # Here are the actual benefits from using the Android App Links:
 1. First, You will benefit from All the points mentioned in the Deep Links' Benefits Section
